@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.icons {
+    font-size: 15rem;
+}
+
+.nameTitle {
+    text-transform: uppercase;
+}
+
+.heading {
+    background-color: #3A98B9;
+    height: 100%;
+    width: 100%;
+    padding: 8rem;
+    display: flex;
+}
+
+.heading img {
+    border-radius: 15%;
+
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    justify-content: space-between;
+}
+
+.name,
+.nameTitle,
+.nameObjective {
+    text-align: right;
+}
+
+.name {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.contact {
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.contactInLine {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.address p {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.education {
+    height: 100%;
+    width: 100%;
+    background-color: #E8D5C4;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+    color: #3A98B9;
+}
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.educationInLine {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.university {
+    text-align: left;
+}
+
+.degree {
+    font-weight: bold;
+}
+
+.experience {
+    height: 100%;
+    width: 100%;
+    background-color: #3A98B9;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experienceInLine {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.expertise {
+    height: 100%;
+    width: 100%;
+    background-color: #EEEEEE;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.expertise-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.expertiseInLine {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.skills {
+    height: 100%;
+    width: 100%;
+    background-color: #E8D5C4;
+    padding: 8rem;
+    display: flex;
+    justify-content: space-between;
+    color: #3A98B9;
+}
+
+.skillscontainer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+}
+
+.skillsInLine {
+    font-size: 3rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.skillsLi {
+    text-align: right;
+}
+
+
+.language {
+    height: 100%;
+    width: 100%;
+    background-color: #3A98B9;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.languageInLine {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.languages p {
+    text-transform: uppercase;
+}
