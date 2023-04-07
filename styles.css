@@ -25,24 +25,27 @@
     width: 100%;
     padding: 8rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .heading img {
     border-radius: 15%;
-
+    height: 15rem;
 }
 
 .right-side {
     display: flex;
     flex-direction: column;
-    padding-left: 10rem;
     justify-content: space-between;
 }
 
 .name,
-.nameTitle,
 .nameObjective {
     text-align: right;
+}
+
+.nameTitle {
+    text-align: center;
 }
 
 .name {
@@ -57,7 +60,7 @@
     padding: 8rem;
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
 }
 
 .contactInLine {
@@ -115,6 +118,10 @@
     align-items: center;
 }
 
+.experience i {
+    display: none;
+}
+
 .experienceInLine {
     font-size: 4rem;
     font-weight: bold;
@@ -150,10 +157,9 @@
     color: #3A98B9;
 }
 
-.skillscontainer {
+.skills-container {
     display: flex;
     flex-direction: column;
-    /* align-items: flex-end; */
 }
 
 .skillsInLine {
@@ -184,4 +190,297 @@
 
 .languages p {
     text-transform: uppercase;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1123px) {
+    .name {
+        font-size: 4rem;
+    }
+
+    .name,
+    .nameTitle,
+    .nameObjective {
+        text-align: right;
+    }
+
+    .nameObjective {
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (max-width: 1015px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .nameObjective {
+        font-size: .8rem;
+    }
+
+    .experienceInLine {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    .nameObjective {
+        font-size: .7rem;
+    }
+
+    .skills i {
+        font-size: 12rem;
+    }
+}
+
+@media screen and (max-width: 886px) {
+    .nameObjective {
+        font-size: .6rem;
+    }
+
+    .education {
+        padding: 5rem;
+    }
+
+    .experienceInLine {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 844px) and (max-height: 390px) {
+    .name {
+        font-size: 3rem;
+    }
+
+    .name,
+    .nameTitle,
+    .nameObjective {
+        text-align: right;
+    }
+
+    .education {
+        padding: 4rem;
+    }
+
+    .experienceInLine {
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .heading {
+        padding: 5rem;
+    }
+
+    .nameObjective {
+        font-size: .5rem;
+    }
+
+    .contact {
+        padding: 4rem;
+    }
+
+    .education {
+        padding: 2rem;
+    }
+
+    .education i {
+        font-size: 12rem;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    .heading {
+        padding: 3rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading img {
+        height: 10rem;
+        width: 10rem;
+        padding-bottom: 1rem;
+    }
+
+    .right-side {
+        align-items: center;
+    }
+
+    .name {
+        font-size: 2rem;
+    }
+
+    .nameObjective {
+        font-size: .7rem;
+    }
+
+    .contact {
+        padding: 2rem;
+        flex-direction: column-reverse;
+    }
+
+    .contact i {
+        font-size: 12rem;
+    }
+
+    .education {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education i {
+        padding: 1rem;
+        font-size: 12rem;
+    }
+
+    .education-container {
+        align-items: center;
+    }
+
+    .experience i {
+        display: block;
+        font-size: 12rem;
+        padding-bottom: 2rem;
+    }
+
+    .experienceInLine {
+        font-size: 3rem;
+    }
+
+    .expertise {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .expertise i {
+        font-size: 12rem;
+        padding-bottom: 2rem;
+    }
+
+    .expertise-container {
+        align-items: center;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container {
+        align-items: center;
+    }
+
+    .skills i {
+        font-size: 12rem;
+        padding-bottom: 2rem;
+    }
+
+    .skillsLi {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading img {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .right-side {
+        align-items: center;
+    }
+
+    .name {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .nameTitle {
+        font-size: .9rem;
+    }
+
+    .nameObjective {
+        text-align: center;
+        font-size: .6rem;
+    }
+
+    .contact {
+        flex-direction: column-reverse;
+    }
+
+    .contact i {
+        font-size: 12rem;
+    }
+
+    .education {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education i {
+        font-size: 12rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .education-container {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .university {
+        padding: 0rem 1.5rem 0rem 3rem;
+    }
+
+    .experience i {
+        display: block;
+        font-size: 12rem;
+        padding-bottom: 2rem;
+    }
+
+    .experienceInLine {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .expertise {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .expertise i {
+        padding-bottom: 2rem;
+        font-size: 12rem;
+    }
+
+    .expertise-container {
+        align-items: center;
+    }
+
+    .expertiseInLine ul {
+        text-align: center;
+    }
+
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills-container {
+        align-items: center;
+    }
+
+    .skills i {
+        font-size: 12rem;
+        padding-bottom: 2rem;
+
+    }
 }
