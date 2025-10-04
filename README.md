@@ -49,5 +49,10 @@ Any static hosting will work:
 - GitHub Pages: push to main and enable Pages (build from /root)
 - Netlify / Vercel: drag-and-drop or connect the repo
 
+---
+
+## 📄 License
+MIT
+
 ## 🗣️ Author
 Hakim Murphy
